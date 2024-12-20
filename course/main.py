@@ -1,5 +1,4 @@
+class Mother:
 
-
-numbers = [8, 7]
-
-print(numbers[2])
+    def attack(self, person):
+        raise NotImplementedError('Calling a method from mother abstract class')
