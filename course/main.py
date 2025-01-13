@@ -1,4 +1,3 @@
-class Mother:
+addition = lambda x, y: x + y
 
-    def attack(self, person):
-        raise NotImplementedError('Calling a method from mother abstract class')
+print(addition)
